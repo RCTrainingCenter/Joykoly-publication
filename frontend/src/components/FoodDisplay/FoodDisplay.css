@@ -1,0 +1,20 @@
+.Book-display{
+    margin-top: 20px;
+}
+.Book-display h2{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-align: center;
+    color: #524747;
+    font-family: 'Bangla', sans-serif;
+}
+.Book-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+    padding: 0 20px;
+    
+}
