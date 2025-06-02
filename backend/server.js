@@ -37,5 +37,15 @@ app.get("/",(req,res)=>{
 app.listen(port,()=>{
     console.log(`Server Started on http://localhost:${port}`)
 })
+// ...existing code...
+
+// REMOVE this block:
+// const port = 4000
+// app.listen(port, () => {
+//   console.log(`Server Started on http://localhost:${port}`)
+// })
+
+// Instead, export the app for Vercel:
+export default app
 
 //mongodb+srv://sajidrehan:<password>@cluster0.gbmkpac.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
